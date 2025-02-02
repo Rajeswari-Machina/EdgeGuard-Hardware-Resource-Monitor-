@@ -8,6 +8,8 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors());
+app.use("/api/stats", require("./routes/resourceRoutes"));
+app.use("/api/anomalies", require("./routes/mlRoutes"));
 
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,

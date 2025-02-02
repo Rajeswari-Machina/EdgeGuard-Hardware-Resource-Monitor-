@@ -4,7 +4,7 @@ const Resource = require("../models/Resource");
 
 const router = express.Router();
 
-router.get("/stats", async (req, res) => {
+router.get("/", async (req, res) => {
   const cpu = await si.currentLoad();
   const memory = await si.mem();
   const disk = await si.fsSize();
