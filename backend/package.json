@@ -1,0 +1,40 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "ai powered hardware resource monitor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajeswari-Machina/EdgeGuard-Hardware-Resource-Monitor-.git"
+  },
+  "keywords": [
+    "ai",
+    "performance",
+    "optimisation",
+    "resource",
+    "monitor",
+    "hardware",
+    "resource",
+    "optimisation"
+  ],
+  "author": "rajeswarimachina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rajeswari-Machina/EdgeGuard-Hardware-Resource-Monitor-/issues"
+  },
+  "homepage": "https://github.com/Rajeswari-Machina/EdgeGuard-Hardware-Resource-Monitor-#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.6",
+    "python-shell": "^5.0.0",
+    "systeminformation": "^5.25.11"
+  }
+}
